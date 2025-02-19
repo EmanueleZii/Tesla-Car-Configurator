@@ -178,7 +178,7 @@ const handleWheelButtonClick = (event) => {
     event.target.classList.add('bg-gray-700', 'text-white');
 
     selectedOptions['Performance Wheels'] =
-      event.target.textContent.includes('Performance');
+    event.target.textContent.includes('Performance');
 
     updateExteriorImage();
 
